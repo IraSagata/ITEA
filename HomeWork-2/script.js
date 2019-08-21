@@ -13,19 +13,27 @@
 function Calculator() {
   this.multiply = function(firstNumber, secondNumber) {
     let multiplyTwoNumbers = firstNumber * secondNumber;
-    console.log(`The result of ultiply is: ${multiplyTwoNumbers}`);
+    console.log(
+      `The result of multiply ${firstNumber} and ${secondNumber} is: ${multiplyTwoNumbers}`
+    );
   };
   this.sum = function(firstNumber, secondNumber) {
     let summariseTwoNumbers = firstNumber + secondNumber;
-    console.log(`The result of summarise is:  ${summariseTwoNumbers}`);
+    console.log(
+      `The result of summarise ${firstNumber} and ${secondNumber} is:  ${summariseTwoNumbers}`
+    );
   };
   this.divide = function(firstNumber, secondNumber) {
     let divideTwoNumbers = firstNumber / secondNumber;
-    console.log(`The result of divide is: ${divideTwoNumbers}`);
+    console.log(
+      `The result of divide ${firstNumber} and ${secondNumber} is: ${divideTwoNumbers}`
+    );
   };
   this.sub = function(firstNumber, secondNumber) {
     let subtractionTwoNumbers = firstNumber - secondNumber;
-    console.log(`The result of subtraction is: ${subtractionTwoNumbers}`);
+    console.log(
+      `The result of subtraction ${firstNumber} and ${secondNumber} is: ${subtractionTwoNumbers}`
+    );
   };
 }
 const calc = new Calculator();
