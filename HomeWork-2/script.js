@@ -10,30 +10,23 @@
 //   calc.divide(9,3) // виведе  “The result is: 3”;
 //    і тд….
 // HOMEWORK 2
+const result = "The result is:";
 function Calculator() {
   this.multiply = function(firstNumber, secondNumber) {
     let multiplyTwoNumbers = firstNumber * secondNumber;
-    console.log(
-      `The result of multiply ${firstNumber} and ${secondNumber} is: ${multiplyTwoNumbers}`
-    );
+    console.log(`${result} ${multiplyTwoNumbers}`);
   };
   this.sum = function(firstNumber, secondNumber) {
     let summariseTwoNumbers = firstNumber + secondNumber;
-    console.log(
-      `The result of summarise ${firstNumber} and ${secondNumber} is:  ${summariseTwoNumbers}`
-    );
+    console.log(`${result}  ${summariseTwoNumbers}`);
   };
   this.divide = function(firstNumber, secondNumber) {
     let divideTwoNumbers = firstNumber / secondNumber;
-    console.log(
-      `The result of divide ${firstNumber} and ${secondNumber} is: ${divideTwoNumbers}`
-    );
+    console.log(`${result}  ${divideTwoNumbers}`);
   };
   this.sub = function(firstNumber, secondNumber) {
     let subtractionTwoNumbers = firstNumber - secondNumber;
-    console.log(
-      `The result of subtraction ${firstNumber} and ${secondNumber} is: ${subtractionTwoNumbers}`
-    );
+    console.log(`${result} ${subtractionTwoNumbers}`);
   };
 }
 const calc = new Calculator();
