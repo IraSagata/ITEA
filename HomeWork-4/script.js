@@ -46,9 +46,9 @@ Object.defineProperty(academy, "addStudent", {
   set: function(value) {
     let newStudent = value.split(" ");
     this.students.push({
-      createDate: Date(),
-      studentName: value[0],
-      studentSurname: value[1]
+      studentName: newStudent[0],
+      studentSurname: newStudent[1],
+      createDate: Date()
     });
     return academy.students;
   }
