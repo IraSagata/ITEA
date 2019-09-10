@@ -25,6 +25,7 @@ function createElementWithText(elementName, text) {
 function appendChildTodo(parent, child) {
   console.log("appendChildTodo ", parent, child);
   parent.appendChild(child);
+  return (inp.value = "");
 }
 
 addTaskBtn.addEventListener("click", () => {
