@@ -3,7 +3,7 @@ for (let i = 0; i < 9; i++) {
     "<button class='block'></button>";
 }
 const game = document.getElementById("game");
-buttons.addEventListener("click", () => {
+game.addEventListener("click", () => {
   let step = 0;
   if (event.target.className == "block") {
     if (step == 0) {
