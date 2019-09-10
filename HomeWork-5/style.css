@@ -14,7 +14,7 @@ html {
 section {
   border: 2px solid skyblue;
   margin: 0 auto;
-  width: 400px;
+  width: 600px;
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -22,14 +22,17 @@ section {
 }
 
 input {
-  font-size: 20px;
-  border: 1px slid orange;
+  font-size: 30px;
+  font-family: "Indie Flower", cursive;
+  border: 3px solid #666;
   margin: 10px;
+  background-color: #3cbc8d;
+  color: white;
 }
 
 ul {
   width: 200px;
-  /* margin: 0 auto; */
+  /* text-align: center; */
 }
 ul li {
   cursor: pointer;
@@ -37,10 +40,15 @@ ul li {
   padding: 12px 8px 12px 40px;
   font-size: 18px;
   transition: 0.2s;
-  width: 280px;
+  width: 480px;
+  font-size: 30px;
+  font-family: "Indie Flower", cursive;
 }
 li:hover {
   background-color: #666;
+}
+li:active {
+  text-decoration: line-through;
 }
 span {
   position: absolute;
